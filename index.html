@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>pung list</title>
+  <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+  <div id="root">
+    <h1>pung list</div>
+    <div>
+        <form>
+          <input type="text" class="inputBox" required>
+          <button class="createFive">5초</button>
+          <button class="createTen">10초</button>
+          <button class="createTwenty">20초</button>
+        </form>
+      <div class="contentResult">총: 0건 평균 남은시간: 0초</div>
+      <div>
+        <button class="resetBtn">초기화</button>
+        <button class="increaseDouble">x2</button>
+        <button class="increaseFive">전체+5</button>
+        <button class="allStop">전체 중지</button>
+        <button class="allStart">전체 시작</button>
+      </div>
+      <div>
+        <ul class="timeListUl"></ul>
+      </div>
+  </div>
+  <script src="./src/main.js"></script>
+</body>
+</html>

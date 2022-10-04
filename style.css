@@ -1,0 +1,20 @@
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+.listItem {
+  margin: 16px 0;
+}
+
+.listItem > button {
+  margin-left: 8px;
+  cursor: pointer;
+}
+
+.listItem > .remainTime {
+  color: tomato;
+  font-weight: 700;
+  margin: 0 8px;
+}
